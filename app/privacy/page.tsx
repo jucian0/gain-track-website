@@ -68,7 +68,7 @@ export default function PrivacyPage() {
               Privacy Policy
             </h1>
             <p className="mt-4 text-sm text-foreground-muted">
-              Last updated: [Insert date before public launch]
+              Last updated: June 1, 2026
             </p>
             <p className="mt-6 text-base leading-7 text-foreground-muted">
               This policy explains how Gain Track may collect, use, store, and

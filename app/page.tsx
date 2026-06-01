@@ -164,8 +164,8 @@ export default function Home() {
                     Start building your training history.
                   </h2>
                   <p className="mt-4 max-w-2xl text-foreground-muted">
-                    Join the early access list and follow the product as it
-                    moves toward launch.
+                    Join the early access list and be among the first to try
+                    Gain Track before launch.
                   </p>
                 </div>
                 <a
@@ -177,7 +177,7 @@ export default function Home() {
               </div>
               <Separator className="mt-8" />
               <p className="mt-5 text-xs text-foreground-muted">
-                No backend is connected on this static website preview.
+                We will only use your email to contact you about early access.
               </p>
             </Card>
           </div>

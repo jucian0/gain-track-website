@@ -1,9 +1,8 @@
 import Link from "next/link";
 import { ArrowRight, Check, Gauge, TimerReset, TrendingUp } from "lucide-react";
+import { EarlyAccessForm } from "@/components/early-access-form";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 
 const sessionRows = [
@@ -42,25 +41,7 @@ export function Hero() {
             </Link>
           </div>
 
-          <form
-            id="early-access"
-            className="mt-8 flex max-w-lg flex-col gap-3 rounded-lg border border-border bg-surface/70 p-3 sm:flex-row"
-          >
-            <label className="sr-only" htmlFor="email">
-              Email address
-            </label>
-            <Input
-              id="email"
-              name="email"
-              type="email"
-              placeholder="you@example.com"
-              autoComplete="email"
-              className="bg-background"
-            />
-            <Button type="submit" size="lg" className="shrink-0">
-              Join list
-            </Button>
-          </form>
+          <EarlyAccessForm />
         </div>
 
         <div aria-label="Gain Track app preview" className="relative">
