@@ -11,6 +11,10 @@ export const metadata: Metadata = {
   title: "Gain Track | Track your training",
   description:
     "A focused workout tracking app for sessions, history, and progression signals.",
+  icons: {
+    icon: "/app-icon.png",
+    apple: "/app-icon.png",
+  },
 };
 
 export default function RootLayout({

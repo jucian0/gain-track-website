@@ -1,5 +1,5 @@
+import Image from "next/image";
 import Link from "next/link";
-import { Activity } from "lucide-react";
 
 export function SiteHeader() {
   return (
@@ -9,8 +9,15 @@ export function SiteHeader() {
           href="/"
           className="flex items-center gap-2 text-sm font-semibold tracking-wide text-foreground focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-primary"
         >
-          <span className="grid size-8 place-items-center rounded-control border border-primary/30 bg-primary/10 text-primary">
-            <Activity aria-hidden="true" className="size-4" />
+          <span className="relative size-8 overflow-hidden rounded-control border border-primary/30 bg-background">
+            <Image
+              src="/app-icon.png"
+              alt=""
+              fill
+              sizes="32px"
+              className="object-cover"
+              priority
+            />
           </span>
           Gain Track
         </Link>

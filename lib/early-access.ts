@@ -38,7 +38,7 @@ export async function joinEarlyAccess(emailInput: string): Promise<EarlyAccessRe
 
   if (error?.code === "23505") {
     return {
-      message: "You are on the tester list.",
+      message: "You are on the early access list.",
       status: "success",
     };
   }
@@ -53,7 +53,7 @@ export async function joinEarlyAccess(emailInput: string): Promise<EarlyAccessRe
   }
 
   return {
-    message: "You are on the tester list.",
+    message: "You are on the early access list.",
     status: "success",
   };
 }
